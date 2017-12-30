@@ -16,7 +16,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-
+        android:id="@+id/relLayout1"
         android:background="@color/bluelike">
 
 
@@ -153,6 +153,28 @@
 
 
         </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relLayout1"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/customList"
+            >
+
+
+
+
+        </ListView>
+
+
+
 
     </RelativeLayout>
 
